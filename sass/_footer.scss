@@ -17,7 +17,8 @@
     &__text {
         font-size: $md;
         font-weight: $normal-weight;
-        width: 100%;
+        width: 70%;
+        margin: auto;
     }
 
     &__list {
@@ -46,11 +47,11 @@
 // Media Query
 //*************
 
-// Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
     .footer__text {
         width: 35%;
+        margin-left: 0;
     }
 
 }
