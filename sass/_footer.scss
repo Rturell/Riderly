@@ -4,8 +4,7 @@
     color: $white;
 
     &__logo {
-        font-family: $logo-font;
-        font-size: 30px;
+        width: 30%;
     }
 
     &__title {
@@ -54,4 +53,23 @@
         margin-left: 0;
     }
 
+    .footer__logo {
+        width: 20%;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+      .footer__logo {
+          width: 15%;
+      }
+
+}
+
+@media (min-width: 992px) {
+    .footer__logo {
+        width: 20%;
+    }
 }

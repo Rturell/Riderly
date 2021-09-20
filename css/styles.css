@@ -127,8 +127,7 @@ body {
 }
 
 .footer__logo {
-  font-family: "Russo One", sans-serif;
-  font-size: 30px;
+  width: 30%;
 }
 
 .footer__title {
@@ -165,6 +164,21 @@ body {
   .footer__text {
     width: 35%;
     margin-left: 0;
+  }
+  .footer__logo {
+    width: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__logo {
+    width: 15%;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer__logo {
+    width: 20%;
   }
 }
 
