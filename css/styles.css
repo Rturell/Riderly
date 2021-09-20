@@ -134,7 +134,7 @@ body {
 .footer__title {
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
+  line-height: 16px;
 }
 
 .footer__text {
@@ -204,7 +204,7 @@ body {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16, 41px;
+  line-height: 16px;
   padding: 0.4rem 1.6rem;
   border-radius: 35px;
 }
