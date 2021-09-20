@@ -20,12 +20,6 @@ body {
   }
 }
 
-.navbar-brand {
-  font-family: "Russo One", sans-serif;
-  color: #3A3A41;
-  font-size: 28px;
-}
-
 .navbar-brand .navbar__logo {
   width: 180%;
 }
