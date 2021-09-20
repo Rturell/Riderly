@@ -2,6 +2,11 @@
     font-family: $logo-font;
     color: $black;
     font-size: 28px;
+
+    .navbar__logo {
+        width: 180%;
+    }
+
 }
 
 .navbar-custom {
@@ -37,7 +42,7 @@
 
     .navbar-brand {
         transform: translateX(-50%);
-        left: 50%;
+        left: 48%;
         top: 10%;
         position: absolute;
     }
