@@ -1,0 +1,17 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: $font-stack;
+    background-color: $light-grey;
+}
+
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}

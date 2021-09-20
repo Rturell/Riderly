@@ -1,0 +1,25 @@
+.footer-social {
+    background-color: $darker-black;
+    color: $white;
+    padding: 0.7rem 0rem;
+
+    &__icon {
+        color: $white;
+        font-size: 15px;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+
+
+    &__legal {
+        font-size: $sm;
+        color: $white;
+
+        & > a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}

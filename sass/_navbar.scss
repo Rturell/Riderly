@@ -1,0 +1,51 @@
+.navbar-brand {
+    font-family: $logo-font;
+    color: $black;
+    font-size: 28px;
+}
+
+.navbar-custom {
+    background-color: $white;
+    padding: 1rem;
+    box-shadow: 0 0px 1px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.nav-link {
+    color: $black;
+    font-weight: $normal-weight;
+    font-size: $lg;
+    line-height: 16px;
+
+    &:hover {
+        color: $primary-color;
+    }
+}
+
+.navbar-toggler {
+    color: $darker-grey;
+}
+
+
+
+
+//*************
+// Media Query
+//*************
+
+@media (min-width: 768px) {
+
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        top: 10%;
+        position: absolute;
+    }
+
+    .nav-item--right {
+        transform: translateX(-50%);
+        right: 0%;
+        position: absolute;
+    }
+
+}

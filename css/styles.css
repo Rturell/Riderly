@@ -1,0 +1,243 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  background-color: #F8F8F9;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-family: "Russo One", sans-serif;
+  color: #3A3A41;
+  font-size: 28px;
+}
+
+.navbar-custom {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  -webkit-box-shadow: 0 0px 1px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 0px 1px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.nav-link {
+  color: #3A3A41;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.nav-link:hover {
+  color: #4264E3;
+}
+
+.navbar-toggler {
+  color: #93939F;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+    top: 10%;
+    position: absolute;
+  }
+  .nav-item--right {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    right: 0%;
+    position: absolute;
+  }
+}
+
+.table-card, .setting-card {
+  background-color: #FFFFFF;
+  padding: 3rem;
+  border-radius: 10px;
+  margin: 70px 0px 70px 0px;
+  border: 0;
+}
+
+.table-card__title {
+  font-size: 23px;
+  color: #4264E3;
+  font-weight: 400;
+}
+
+.table-card__link {
+  font-size: 12px;
+  font-weight: 500;
+  color: #5377F2;
+}
+
+.table-card__link:hover {
+  color: #4264E3;
+}
+
+.table-card .table, .setting-card .table {
+  font-size: 12px;
+  color: #3A3A41;
+}
+
+.table-card .table__title, .setting-card .table__title {
+  color: #93939F;
+  font-weight: 500;
+}
+
+.table-card .table__id, .setting-card .table__id {
+  color: #5377F2;
+  font-size: 14px;
+}
+
+.table-card .table__status--paid, .setting-card .table__status--paid {
+  color: #70BFAA;
+}
+
+.table-card .table thead, .setting-card .table thead {
+  border-color: #DDDDE1;
+}
+
+.table-card .table > :not(caption) > * > *, .setting-card .table > :not(caption) > * > * {
+  padding: 0.9rem;
+}
+
+.table-card .table > :not(:last-child) > :last-child > *, .setting-card .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #DDDDE1;
+}
+
+.footer {
+  background-color: #3A3A41;
+  padding: 2.5rem 0rem;
+  color: #FFFFFF;
+}
+
+.footer__logo {
+  font-family: "Russo One", sans-serif;
+  font-size: 30px;
+}
+
+.footer__title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+}
+
+.footer__text {
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.footer__list {
+  font-size: 12px;
+  font-weight: 400;
+  list-style-type: none;
+  padding: 0;
+  line-height: 25px;
+}
+
+.footer__item {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__item:hover {
+  color: #5377F2;
+}
+
+@media (min-width: 576px) {
+  .footer__text {
+    width: 35%;
+  }
+}
+
+.footer-social {
+  background-color: #2A2A30;
+  color: #FFFFFF;
+  padding: 0.7rem 0rem;
+}
+
+.footer-social__icon {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.footer-social__icon:hover {
+  color: #5377F2;
+}
+
+.footer-social__legal {
+  font-size: 10px;
+  color: #FFFFFF;
+}
+
+.footer-social__legal > a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.setting-card__title {
+  color: #4264E3;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.setting-card__btn {
+  background-color: #4264E3;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16, 41px;
+  padding: 0.4rem 1.6rem;
+  border-radius: 35px;
+}
+
+.setting-card__btn:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #4264E3;
+  color: #4264E3;
+}
+
+.setting-card__subtitle {
+  font-size: 14px;
+  color: #3A3A41;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.setting-card__card {
+  background-color: #F8F8F9;
+  padding: 1rem;
+  border: none;
+  width: 80%;
+  margin: auto;
+}
+
+.setting-card__card .data {
+  color: #93939F;
+  font-size: 14px;
+  margin: 0;
+}
+
+.setting-card__card .data--link {
+  color: #4264E3;
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 2.8rem;
+}
+
+@media (min-width: 576px) {
+  .setting-card__card {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

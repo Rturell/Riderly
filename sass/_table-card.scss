@@ -1,0 +1,60 @@
+.table-card {
+    background-color: $white;
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 70px 0px 70px 0px;
+    border: 0;
+
+    &__title {
+        font-size: $h2;
+        color: $primary-color;
+        font-weight: $normal-weight;
+    }
+
+    &__link {
+        font-size: $md;
+        font-weight: $medium-weight;
+        color: $secondary-color;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+
+    .table {
+
+        font-size: $md;
+        color: $black;
+
+        &__title {
+            color: $darker-grey;
+            font-weight: $medium-weight;
+        }
+
+        &__id {
+            color: $secondary-color;
+            font-size: $lg;
+        }
+
+        &__status--paid {
+
+            color: $green-success;
+
+        }
+
+        thead {
+            border-color: $grey;
+        }
+
+        &>:not(caption)>*>* {
+            padding: 0.9rem;
+        }
+
+        &>:not(:last-child)>:last-child>* {
+            border-bottom-color: $grey;
+        }
+
+
+    }
+
+}

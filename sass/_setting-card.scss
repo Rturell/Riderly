@@ -1,0 +1,74 @@
+.setting-card {
+
+    @extend .table-card;
+
+
+    &__title {
+        color: $primary-color;
+        font-size: $h2;
+        font-weight: $normal-weight;
+    }
+
+    &__btn {
+        background-color: $primary-color;
+        color: $white;
+        font-size: $lg;
+        font-weight: $medium-weight;
+        line-height: 16, 41px;
+        padding: 0.4rem 1.6rem;
+        border-radius: 35px;
+
+        &:hover {
+            background-color: $white;
+            border: 1px solid $primary-color;
+            color: $primary-color;
+        }
+
+    }
+
+    &__subtitle {
+        font-size: $lg;
+        color: $black;
+        font-weight: $normal-weight;
+        margin-bottom: 10px;
+
+    }
+
+    &__card {
+        background-color: $light-grey;
+        padding: 1rem;
+        border: none;
+        width: 80%;
+        margin: auto;
+
+
+        .data {
+            color: $darker-grey;
+            font-size: 14px;
+            margin: 0;
+
+            &--link {
+                color: $primary-color;
+                text-decoration: none;
+                font-size: $md;
+                display: inline-block;
+                margin-top: 2.8rem;
+            }
+        }
+
+    }
+
+}
+
+
+//*************
+// Media Query
+//*************
+
+@media (min-width: 576px) {
+
+    .setting-card__card {
+        width: 100%;
+    }
+
+}
