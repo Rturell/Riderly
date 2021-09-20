@@ -14,6 +14,12 @@ body {
   margin-left: auto;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+
 .navbar-brand {
   font-family: "Russo One", sans-serif;
   color: #3A3A41;
@@ -53,7 +59,7 @@ body {
   .nav-item--right {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    right: 0%;
+    right: 0;
     position: absolute;
   }
 }
